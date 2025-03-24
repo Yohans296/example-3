@@ -1,0 +1,83 @@
+body {
+    font-family: 'Serif', sans-serif;
+    background: #fdfaf5;
+    color: #5a4233;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #3e2c24;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background: transparent;
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+
+.hero .content {
+    width: 50%;
+}
+
+.hero .image img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.inspiration {
+    text-align: center;
+    padding: 50px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.gallery .item {
+    text-align: center;
+}
+
+.gallery .item img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #3e2c24;
+    color: white;
+}
